@@ -1,0 +1,9 @@
+[crate]
+name = "parterfetch"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.26"
+whoami = "1.2.3"
+colored = "2.0"
