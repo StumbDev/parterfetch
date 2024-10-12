@@ -1,9 +1,13 @@
-[crate]
+[package]
 name = "parterfetch"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2021"
-
 [dependencies]
-sysinfo = "0.26"
-whoami = "1.2.3"
+# For system information like CPU, memory, disk, and OS details
+sysinfo = { version = "0.26", features = ["default"] }
+
+# For colored output
 colored = "2.0"
+
+# For getting the current user and host info
+whoami = "1.2"
